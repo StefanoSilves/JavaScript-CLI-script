@@ -1,0 +1,23 @@
+{
+  "name": "javascript-cli-script",
+  "version": "1.0.0",
+  "description": "The repo of the javascript-cli-script",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/StefanoSilves/JavaScript-CLI-script.git"
+  },
+  "author": "Stefano Silvestrini",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/StefanoSilves/JavaScript-CLI-script/issues"
+  },
+  "homepage": "https://github.com/StefanoSilves/JavaScript-CLI-script#readme",
+  "dependencies": {
+    "csv-parser": "^2.3.3",
+    "fs": "0.0.1-security"
+  }
+}

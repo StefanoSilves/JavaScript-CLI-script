@@ -6,7 +6,7 @@ const filterFunction = (filePath, index, filterValue) => {
   fs.createReadStream(filePath)
     .pipe(csv({ headers: false }))
     .on('data', (data) => {
-      if (data[Number(index)] === filterValue) {
+      if (data[index] === filterValue) {
         results.push(Object.values(data).join(' - '));
       }
     })
